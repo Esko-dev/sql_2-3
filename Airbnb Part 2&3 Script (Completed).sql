@@ -79,8 +79,9 @@ CREATE TABLE UserRole (
 );
 
 --INSERT INTO UserRole table
-INSERT INTO UserRole (USR_ID, USR_ROLE) VALUES (1, 'Admin');
-INSERT INTO UserRole (USR_ID, USR_ROLE) VALUES (2, 'User');
+INSERT INTO UserRole (USR_ID, USR_ROLE) VALUES (0, 'Admin');
+INSERT INTO UserRole (USR_ID, USR_ROLE) VALUES (1, 'User');
+
 INSERT INTO UserRole (USR_ID, USR_ROLE) VALUES (3, 'User');
 INSERT INTO UserRole (USR_ID, USR_ROLE) VALUES (4, 'User');
 INSERT INTO UserRole (USR_ID, USR_ROLE) VALUES (5, 'Moderator');
